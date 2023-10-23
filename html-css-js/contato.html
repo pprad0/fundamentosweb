@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> -- Entre em contato -- </title>
+
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+
+<body>
+
+    <ul id="menu" class="">
+        <li><a href="index.html">Página inicial</a></li>
+        <li><a href="https://google.com.br">Google</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="https://generationbrasil.online/#/login">Generation Brasil</a></li>
+    </ul>
+
+    <hr class="hr">
+
+    <h1>Contato</h1>
+
+    <div class="center">
+        <button onclick="olaMundo()">Diga olá!</button>
+    </div>
+
+    <br><br>
+
+    <div class="container pd-30 background">
+        <form>
+            <label for="nome">Nome:</label> <br>
+            <input type="text" id="nome" onkeyup='validaNome()'>
+            <div id='txtNome'></div>
+            <br>
+            <label for="email">E-mail:</label> <br>
+            <input type="email" id="email" onkeyup='validaEmail()'>
+            <div id='txtEmail'></div>
+            <br>
+            <label for="assunto">Assunto:</label> <br>
+            <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
+            <div id='txtAssunto'></div>
+            <br>
+            <br>
+            <button onclick="enviar()">Enviar</button>
+        </form>
+    </div>
+
+
+    <div class="center">
+        <p class="p-color">Localização da Avenida Paulista, em São Paulo:</p>
+    </div>
+
+    <div class="container">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3032.8189228704546!2d-46.655571966266685!3d-23.56293781233132!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1697680560217!5m2!1spt-BR!2sbr"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+
+
+
+
+
+
+
+
+    <hr class="hr">
+
+    <div>
+        <footer class="container center">
+            <p><a href="https://www.linkedin.com/in/pemelo/" target="_blank"><img class="footer-redes"
+                        src="./assets/linkedin.png" alt="Logo do Linkedin"></a></p>
+            <p><a href="https://github.com/pprad0" target="_blank"><img class="footer-redes" src="./assets/github.png"
+                        alt="Logo do Github"></a></p>
+            <p><a class="footer-texto" href="https://www.flaticon.com/br/icones-gratis/linkedin" target="_blank"
+                    title="Ícones">Ícones criados por Freepik - Flaticon</a></p>
+            <p class="footer-texto">Direitos Reservados a Pedro Melo &copy</p>
+        </footer>
+    </div>
+
+    <script src="./assets/script/script.js"></script>
+
+</body>
+
+</html>

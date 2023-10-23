@@ -1,0 +1,97 @@
+/* Display */
+.container{
+    display: flex;
+    justify-content: center;
+    flex-flow: row ;
+    align-items: center;
+}
+
+
+/* Estilos da página index.html */
+
+#menu li {
+    display: inline;
+    padding: 15px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#menu li a:hover {
+    color: rgb(255, 0, 0);
+}
+
+
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+
+
+p{
+    font-size: 24px; 
+}
+
+.p-home{
+    font-family: cursive;
+}
+
+.pd-30 {
+    padding: 30px;
+}
+
+.br-90 {
+    border-radius: 90px;
+}
+
+.img-praia{
+    width: 350px;
+}
+
+.background {
+    background-color: rgba(255, 227, 65, 0.322);
+}
+
+.hr {
+    border-color: rgba(255, 227, 65, 0.322);
+}
+
+.footer-redes {
+    width: 40px;
+    padding-right: 10px;
+}
+
+.footer-texto {
+    padding-right: 10px;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 45px;
+    padding: 0px ;
+    margin: 0px;
+}
+
+h2 {
+    margin-top: 35px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+
+/* Estilos da página contato.html */
+
+
+button {
+    background-color: rgba(255, 227, 65, 0.322);
+}
